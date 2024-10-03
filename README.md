@@ -2,9 +2,9 @@
 
 This project contains a Forge app written in Javascript that creates a To do app for Jira.
 
-The app uses [https://developer.atlassian.com/platform/forge/runtime-reference/storage-api/](Forge Storage) and [https://developer.atlassian.com/platform/forge/ui-kit/components/](UI Kit)
+The app uses [Forge Storage](https://developer.atlassian.com/platform/forge/runtime-reference/storage-api/) and [UI Kit](https://developer.atlassian.com/platform/forge/ui-kit/components/)
 
-It is based on the [https://bitbucket.org/atlassian/todo-app-custom-ui/src/master/](Custom UI To Do Sample app)
+It is based on the [Custom UI ToDo Sample app](https://bitbucket.org/atlassian/todo-app-custom-ui/src/master/)
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
