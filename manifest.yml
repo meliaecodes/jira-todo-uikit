@@ -1,0 +1,22 @@
+modules:
+  jira:issuePanel:
+    - key: jira-todo-uikit-hello-world-issue-panel
+      resource: main
+      resolver:
+        function: resolver
+      render: native
+      title: jira-todo-uikit
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+app:
+  runtime:
+    name: nodejs20.x
+  id: <replace-me>
+permissions:
+  scopes:
+    - storage:app
