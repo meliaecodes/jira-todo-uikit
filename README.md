@@ -18,6 +18,11 @@ See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/)
 
 - Modify your app backend by editing the `src/resolvers/index.js` file to define resolver functions. See [Forge resolvers](https://developer.atlassian.com/platform/forge/runtime-reference/custom-ui-resolver/) for documentation on resolver functions.
 
+- Register your app to get an App id by running:
+```
+forge register
+```
+
 - Build and deploy your app by running:
 ```
 forge deploy
